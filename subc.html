@@ -1,0 +1,82 @@
+<html>
+    <body>
+        <h1 class="head">PLEASE SELECT FOLLOWING SUB-CATEGORY</h1>
+        <h3 class="head2">HOTELS</h3>
+        <h3 class="head3">EDUCATION</h3>
+        <form action="subc.php" method="post">
+        <input type="submit" class="three" name="three" value="THREE-STAR HOTELS" >
+        <input type="submit" class="five" hname="five" value="FIVE-STAR HOTELS">
+        </form>
+        <form action="sube.php" method="post">
+        <input type="submit" class="btech" name="btech" value="B-TECH" >
+        <input type="submit" class="mtech" name="mtech" value="M-TECH" >
+    </form>
+    </body>
+    <a href="page.html" class="home">GO TO HOME PAGE</a>
+
+</html>
+
+<style>
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.head2{
+    position:absolute;
+    top:200px;
+    left:150px;
+    text-decoration: underline;
+}
+.head3{
+    position:absolute;
+    top:200px;
+    left:750px;
+    text-decoration: underline;
+}
+.three{
+    text-decoration: none;
+position:absolute;
+top:300px;
+left:100px;
+background-color: rgb(255, 226, 183);
+border-color:rgb(0, 255, 34);
+}
+.five{
+    text-decoration: none;
+position:absolute;
+top:350px;
+left:100px;
+background-color: rgb(255, 226, 183);
+border-color:rgb(255, 0, 0);
+
+}
+.btech{
+    text-decoration: none;
+position:absolute;
+top:300px;
+left:770px;
+background-color: rgb(255, 226, 183);
+border-color:rgb(0, 26, 255);
+
+}
+.mtech{
+    text-decoration: none;
+position:absolute;
+top:350px;
+left:770px;
+background-color: rgb(255, 226, 183);
+border-color:rgb(229, 255, 0);
+
+}
+body{
+    background-color: rgb(255, 226, 183);
+    color:rgb(8, 5, 5);
+}
+.five:hover,.three:hover,.btech:hover,.mtech:hover{
+    background-color: rgb(247, 248, 248);
+    border-radius:10px;
+    padding:8px;
+}
+</style>
